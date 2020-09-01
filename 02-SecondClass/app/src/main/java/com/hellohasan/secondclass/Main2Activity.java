@@ -33,15 +33,15 @@ public class Main2Activity extends AppCompatActivity {
 
     public void buttonClick(View view) {
 
-        if(view.getId() ==  R.id.button1) {
+        if(view.getId() == R.id.button1) {
             String text = "Button 1 Clicked: " + editText.getText().toString();
             textView.setText(text);
-            Toast.makeText(this, "Button 1", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Button 1 clicked", Toast.LENGTH_SHORT).show();
         }
         else if(view.getId() == R.id.button2) {
             String text = "Button 2 Clicked: " + editText.getText().toString();
             textView.setText(text);
-            Toast.makeText(this, "Button 2", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Button 2 clicked", Toast.LENGTH_SHORT).show();
         }
     }
 }

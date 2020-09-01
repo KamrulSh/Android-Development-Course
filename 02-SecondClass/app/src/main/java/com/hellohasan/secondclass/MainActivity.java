@@ -1,4 +1,4 @@
-/**
+/*
  * Android Ninja - Class No: 2 [19 August, 2017]
  * Topics:
  * - ConstraintLayout

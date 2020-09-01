@@ -22,16 +22,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Second TextView"
-        app:layout_constraintTop_toBottomOf="@id/hello_world"/>
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/hello_world"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/third_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Third text"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintLeft_toRightOf="@id/second_text"
         app:layout_constraintTop_toTopOf="@id/second_text"
-        android:layout_marginLeft="8dp"/>
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
 
 
     <Button
@@ -39,6 +44,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/second_text"
-        android:text="Button"/>
+        android:text="Button"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
