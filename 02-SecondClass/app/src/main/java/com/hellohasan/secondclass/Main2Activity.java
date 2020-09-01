@@ -31,6 +31,8 @@ public class Main2Activity extends AppCompatActivity {
         editText.setText(string);
     }
 
+    // this method comes from my_layout.xml file
+
     public void buttonClick(View view) {
 
         if(view.getId() == R.id.button1) {
