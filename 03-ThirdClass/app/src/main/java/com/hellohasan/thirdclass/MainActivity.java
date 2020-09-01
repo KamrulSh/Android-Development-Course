@@ -1,4 +1,4 @@
-/**
+/*
  * Android Ninja - Class No: 3 | 25 August, 2017
    TODAY's Topics:
     - ImageView with Android Piccasso Library

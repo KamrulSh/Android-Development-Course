@@ -5,7 +5,6 @@ import android.webkit.WebViewClient;
 
 public class MyBrowser extends WebViewClient {
 
-    @SuppressWarnings("deprecation")
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
         view.loadUrl(url);
